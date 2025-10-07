@@ -70,11 +70,9 @@ async function runAgentTurn(agentConfig, userMessage) {
   const textContent = response.content.find(block => block.type === "text");
   const agentResponse = textContent ? textContent.text : "No response";
 
-  // Update conversation history
-  conversationHistory.push(
-    { role: "user", content: userMessage },
-    { role: "assistant", content: agentResponse }
-  );
+  // Update conversation history with all messages (including tool use/results)
+  conversationHistory = messages.slice();
+  conversationHistory.push({ role: "assistant", content: response.content });
 
   return agentResponse;
 }
