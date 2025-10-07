@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+venv/
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Logs
+*.log
+npm-debug.log*
+
+#Ignore vscode AI rules
+.github/instructions/codacy.instructions.md

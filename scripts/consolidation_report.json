@@ -1,0 +1,39 @@
+{
+  "plans": {
+    "deletions": [
+      {
+        "project": "collections",
+        "path": "/Users/flucido/projects/claudeAgents/agent templates/collections/advance_ai_agents/agents/customer-service/.gitignore"
+      },
+      {
+        "project": "collections",
+        "path": "/Users/flucido/projects/claudeAgents/agent templates/collections/advance_ai_agents/agents/medical-pre-authorization/.gitignore"
+      },
+      {
+        "project": "collections",
+        "path": "/Users/flucido/projects/claudeAgents/agent templates/collections/advance_ai_agents/agents/blog-writer/.gitignore"
+      }
+    ],
+    "moves": [],
+    "conflicts": [],
+    "duplicates": []
+  },
+  "report": {
+    "deleted": [
+      {
+        "project": "collections",
+        "path": "/Users/flucido/projects/claudeAgents/agent templates/collections/advance_ai_agents/agents/customer-service/.gitignore"
+      },
+      {
+        "project": "collections",
+        "path": "/Users/flucido/projects/claudeAgents/agent templates/collections/advance_ai_agents/agents/medical-pre-authorization/.gitignore"
+      },
+      {
+        "project": "collections",
+        "path": "/Users/flucido/projects/claudeAgents/agent templates/collections/advance_ai_agents/agents/blog-writer/.gitignore"
+      }
+    ],
+    "moved": [],
+    "skipped": []
+  }
+}
